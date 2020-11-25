@@ -27,4 +27,14 @@ class Board
     end
   end
 
+  def render
+    puts "  " + (0...@grid[0].length).to_a.join(" ")
+    @grid.each_with_index do |row,i|
+      row_rendered = String(i)
+      row.each { |tile| row_rendered << " " + tile.to_s }
+      puts row_rendered
+    end
+    nil
+  end
+
 end

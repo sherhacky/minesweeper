@@ -32,10 +32,34 @@ class Tile
     end
   end
 
+  def unflag
+    if !@flagged
+      return false
+    elsif @revealed
+      return false
+    else
+      @flagged = false
+    end
+  end
+
+  def explode
+    if @bomb
+      @bomb = nil
+    end
+  end
+
   def to_s
     bomb = "\u260c".encode('utf-8')
     flag = "\u2691".encode('utf-8')
-    if @flagged
+    if @bomb == nil
+      bomb.colorize(:black).on_red
+    elsif @flagged && @revealed && !@bomb
+      flag.colorize(:light_black)
+    elsif @flagged && @revealed && @bomb
+      flag.colorize(:light_red)
+    elsif @revealed && @bomb
+      bomb.colorize(:red)
+    elsif @flagged
       flag.colorize(:red)
     elsif !@revealed
       '*'
@@ -46,8 +70,8 @@ class Tile
     end
   end
 
-  def reveal(count)
-    if @revealed || @flagged
+  def reveal(count, forced = false)
+    if !forced && (@revealed || @flagged)
       return false
     end
     @revealed = true

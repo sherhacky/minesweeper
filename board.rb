@@ -43,12 +43,13 @@ class Board
   end
 
   def reveal(*pos)
-    self[*pos].revealed = true
-    if self[*pos].bomb
-      # possibly add to reveal all tiles?
+    if self[*pos].revealed || self[*pos].flagged
+      return false
+    elsif self[*pos].bomb
+      # something should happen here to end the game
       return false
     else
-      self[*pos].bomb_count = count_adjacent_bombs(*pos)
+      self[*pos].reveal(count_adjacent_bombs(*pos))
       if self[*pos].bomb_count == 0
         reveal_neighbors(*pos)
       end
@@ -63,13 +64,20 @@ class Board
       [j-1,j,j+1].each do |x|
         if y.between?(0, @grid.length-1) &&
           x.between?(0, @grid[0].length-1) &&
-          result << [x,y]
+          result << [y,x]
         end
       end
     end
     result
   end
 
+  def flag(*pos)
+    if self[*pos].revealed
+      return false
+    end
+    self[*pos].flag
+    true
+  end
 
   def reveal_neighbors(*pos)
     neighbors(*pos).each do |nbr|

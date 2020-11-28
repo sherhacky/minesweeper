@@ -9,6 +9,7 @@ class Tile
     @revealed = false
     @bomb_count = nil
     @flagged = false
+    @selected = false
   end
 
   def color_map
@@ -48,7 +49,8 @@ class Tile
     end
   end
 
-  def to_s
+  def to_s_unselected
+    output = ''
     bomb = "\u260c".encode('utf-8')
     flag = "\u2691".encode('utf-8')
     if @bomb == nil
@@ -70,6 +72,15 @@ class Tile
     end
   end
 
+  def to_s
+    if !@selected || @bomb == nil
+      to_s_unselected
+    else
+      to_s_unselected.black.on_white
+    end
+  end
+
+
   def reveal(count, forced = false)
     if !forced && (@revealed || @flagged)
       return false
@@ -77,6 +88,14 @@ class Tile
     @revealed = true
     @bomb_count = count
     true
+  end
+
+  def select
+    @selected = true
+  end
+
+  def unselect
+    @selected = false
   end
 
 end

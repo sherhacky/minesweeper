@@ -1,12 +1,16 @@
 require_relative "tile.rb"
 require "colorize"
+require 'set'
 
 class Board
   attr_reader :flag_count
 
   def initialize(height = 9, width = 9)
+    @m = height
+    @n = width
     @grid = Array.new(height) { Array.new(width) }
     @flag_count = nil
+    @selected = [0,0]
   end
 
   def [](*pos)
@@ -37,31 +41,48 @@ class Board
   end
 
   def render
-    if @grid[0].length <= 10
-      head = "  " + ('1'..'10').to_a[0...@grid[0].length].join(" ")
-    else
-      head = "  "
-      (1..@grid[0].length).each do |k|
-        append = String(k)
-        if k < 10
-          append << " "
-        end
-        if k%2 != 0
-          append = append.colorize(:light_black)
-        end
-        head << append
-      end
-    end
+    head = " "
+    #if @grid[0].length <= 10
+    #  head = "  " + ('1'..'10').to_a[0...@grid[0].length].join(" ")
+    #else
+    #  head = "  "
+    #  (1..@grid[0].length).each do |k|
+    #    append = String(k)
+    #    if k < 10
+    #      append << " "
+    #    end
+    #    if k%2 != 0
+    #      append = append.colorize(:light_black)
+    #    end
+    #    head << append
+    #  end
+    #end
     puts head
     @grid.each_with_index do |row,i|
-      row_rendered = (i+65).chr
+      row_rendered = ""
+      #row_rendered << (i+65).chr
       row.each { |tile| row_rendered << " " + tile.to_s }
       puts row_rendered
     end
     nil
   end
 
+  def reveal_selected
+    reveal(*@selected)
+  end
+
+  def toggle_flag
+    if self[*@selected].revealed
+      return nil
+    elsif self[*@selected].flagged
+      unflag(*@selected)
+    else
+      flag(*@selected)
+    end
+  end
+
   def reveal(*pos)
+    # returns true iff a bomb exploded (to trigger game end)
     if self[*pos].revealed || self[*pos].flagged
       return false
     elsif self[*pos].bomb
@@ -72,7 +93,7 @@ class Board
       if self[*pos].bomb_count == 0
         reveal_neighbors(*pos)
       end
-      true
+      false
     end
   end
 
@@ -117,12 +138,24 @@ class Board
   end
 
   def reveal_neighbors(*pos)
-    neighbors(*pos).each do |nbr|
-      if !self[*nbr].revealed
-        reveal(*nbr)
+    to_do = [pos]
+    seen = Set.new([pos])
+    while to_do.length > 0
+      new_to_do = []
+      to_do.each do |crd|
+        neighbors(*crd).each do |nbr|
+          bombs = count_adjacent_bombs(*nbr)
+          if bombs == 0 && !seen.include?(nbr) && !self[*nbr].revealed
+            new_to_do << nbr
+          end
+          seen << nbr
+          self[*nbr].reveal(bombs)
+        end
       end
+      to_do = new_to_do
     end
   end
+            
 
   def count_adjacent_bombs(*pos)
     count = 0
@@ -130,6 +163,26 @@ class Board
       count += 1 if (self[*nbr].bomb || self[*nbr].bomb == nil)
     end
     count
+  end
+
+  def select(*pos)
+    self[*@selected].unselect
+    self[*pos].select
+    @selected = pos
+  end
+
+  def move_cursor(string)
+    i,j = @selected
+    if string == 'left' && j > 0
+      select(i,j-1)
+    elsif string == 'right' && j < @n-1
+      select(i,j+1)
+    elsif string == 'up' && i > 0
+      select(i-1,j)
+    elsif string == 'down' && i < @m-1
+      select(i+1,j)
+    end
+    return nil
   end
 
   def won?

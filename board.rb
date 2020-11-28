@@ -65,6 +65,7 @@ class Board
     if self[*pos].revealed || self[*pos].flagged
       return false
     elsif self[*pos].bomb
+      reveal_neighbors(*pos)
       self[*pos].explode
       return true
     else

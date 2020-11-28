@@ -117,7 +117,7 @@ class Game
       while move == nil || !is_valid_move?(move)
         if move == nil
           puts "Command not recognized. Please try again or enter H for help."
-        elsif move.downcase == 'h'
+        elsif move[0].downcase == 'h'
           help_out
         else
           puts "That's not a legal move! Make sure you use legal coordinates,"

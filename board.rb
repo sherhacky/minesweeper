@@ -1,9 +1,12 @@
 require_relative "tile.rb"
+require "colorize"
 
 class Board
+  attr_reader :flag_count
 
   def initialize(height = 9, width = 9)
     @grid = Array.new(height) { Array.new(width) }
+    @flag_count = nil
   end
 
   def [](*pos)
@@ -30,12 +33,28 @@ class Board
         end
       end
     end
+    @flag_count = count
   end
 
   def render
-    puts "  " + ('A'..'Z').to_a[0...@grid[0].length].join(" ")
+    if @grid[0].length <= 10
+      head = "  " + ('1'..'10').to_a[0...@grid[0].length].join(" ")
+    else
+      head = "  "
+      (1..@grid[0].length).each do |k|
+        append = String(k)
+        if k < 10
+          append << " "
+        end
+        if k%2 != 0
+          append = append.colorize(:light_black)
+        end
+        head << append
+      end
+    end
+    puts head
     @grid.each_with_index do |row,i|
-      row_rendered = String(i)
+      row_rendered = (i+65).chr
       row.each { |tile| row_rendered << " " + tile.to_s }
       puts row_rendered
     end
@@ -80,18 +99,20 @@ class Board
   end
 
   def flag(*pos)
-    if self[*pos].revealed
+    if self[*pos].revealed || self[*pos].flagged
       return false
     end
     self[*pos].flag
+    @flag_count -= 1
     true
   end
 
   def unflag(*pos)
-    if self[*pos].revealed
+    if self[*pos].revealed || !self[*pos].flagged
       return false
     end
     self[*pos].unflag
+    @flag_count += 1
     true
   end
 

@@ -2,8 +2,8 @@ require_relative "board.rb"
 require_relative "tile.rb"
 require "remedy"
 include Remedy
-#note classic minesweeper: the game ends when
-#all bomb-free tiles have been revealed
+#note that in classic minesweeper, the game ends when
+#all bomb-free tiles have been revealed.
 
 class Game
   @@continuing = true
@@ -91,11 +91,11 @@ class Game
     if @board.won?
       @board.reveal_all
       @board.render
-      puts "You won. Nice! \n  "
+      puts "\n   " +  " You won. Nice! ".black.on_yellow + "\n  "
     else
       @board.reveal_all
       @board.render
-      puts "Bad luck! \n  "
+      puts "\n   " + " Bad luck! ".black.on_red + "\n  "
     end
     puts "[T]itle"
     puts "[Q]uit"

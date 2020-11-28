@@ -173,14 +173,14 @@ class Board
 
   def move_cursor(string)
     i,j = @selected
-    if string == 'left' && j > 0
-      select(i,j-1)
-    elsif string == 'right' && j < @n-1
-      select(i,j+1)
-    elsif string == 'up' && i > 0
-      select(i-1,j)
-    elsif string == 'down' && i < @m-1
-      select(i+1,j)
+    if string == 'left'
+      select(i, (j-1) % @n)
+    elsif string == 'right'
+      select(i,(j+1) % @n)
+    elsif string == 'up'
+      select((i-1) % @m, j)
+    elsif string == 'down'
+      select((i+1) % @m, j)
     end
     return nil
   end

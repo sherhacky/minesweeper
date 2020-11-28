@@ -65,7 +65,6 @@ class Board
     if self[*pos].revealed || self[*pos].flagged
       return false
     elsif self[*pos].bomb
-      reveal_neighbors(*pos)
       self[*pos].explode
       return true
     else
@@ -128,7 +127,7 @@ class Board
   def count_adjacent_bombs(*pos)
     count = 0
     neighbors(*pos).each do |nbr|
-      count += 1 if self[*nbr].bomb
+      count += 1 if (self[*nbr].bomb || self[*nbr].bomb == nil)
     end
     count
   end

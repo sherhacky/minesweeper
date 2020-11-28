@@ -1,0 +1,2922 @@
+2020-11-28 00:41:05BREAK_PLACEHOLDER--- !ruby/object:Game
+m: 16
+n: 30
+bombs: 99
+board: !ruby/object:Board
+  m: 16
+  n: 30
+  grid:
+  - - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: true
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 2
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 2
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: true
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 0
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 0
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 0
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 0
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+  - - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 2
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: true
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 2
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 0
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 2
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 2
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 2
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+  - - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 2
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 2
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 0
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 0
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 0
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: true
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+  - - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: true
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 2
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 0
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 0
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 0
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 2
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 4
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+  - - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: true
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 3
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 0
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: true
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 3
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+  - - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 2
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: true
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 3
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+  - - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 0
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 2
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 2
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+  - - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 0
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 0
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 0
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+  - - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 2
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 2
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: true
+      bomb_count: 1
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: true
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+  - - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+  - - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+  - - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+  - - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+  - - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+  - - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+  - - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: false
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+    - !ruby/object:Tile
+      bomb: true
+      revealed: false
+      bomb_count: 
+      flagged: false
+      selected: false
+  flag_count: 91
+  selected:
+  - 8
+  - 5
+game_over: false
+keys:
+  up: &1 !ruby/object:Remedy::Key
+    character_sequence: "\e[A"
+  down: &2 !ruby/object:Remedy::Key
+    character_sequence: "\e[B"
+  left: &3 !ruby/object:Remedy::Key
+    character_sequence: "\e[D"
+  right: &4 !ruby/object:Remedy::Key
+    character_sequence: "\e[C"
+  " ": &5 !ruby/object:Remedy::Key
+    character_sequence: " "
+  f: &6 !ruby/object:Remedy::Key
+    character_sequence: f
+  ctrl-s: &7 !ruby/object:Remedy::Key
+    character_sequence: "\x13"
+  ctrl-c: &8 !ruby/object:Remedy::Key
+    character_sequence: "\x03"
+  h: &9 !ruby/object:Remedy::Key
+    character_sequence: h
+commands:
+  *1: up
+  *2: down
+  *3: left
+  *4: right
+  *5: " "
+  *6: f
+  *7: ctrl-s
+  *8: ctrl-c
+  *9: h

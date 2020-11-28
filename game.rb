@@ -1,6 +1,7 @@
 require_relative "board.rb"
 require_relative "tile.rb"
 require "remedy"
+require "yaml"
 include Remedy
 #note that in classic minesweeper, the game ends when
 #all bomb-free tiles have been revealed.
@@ -51,9 +52,21 @@ class Game
       check_game_state
     elsif move == 'f'
       @board.toggle_flag
+    elsif move == 'ctrl-s'
+      # save_file = File.open("saves.txt")
+      time = Time.new.inspect[0..18]
+      new_save = self.to_yaml
+      # puts new_save
+      File.write("saves.txt", time + "BREAK_PLACEHOLDER" + new_save)
+      puts "Game saved."
+      sleep(2)
     elsif move == 'ctrl-c'
-      puts "Closing program..."
-      puts undefined_variable
+      puts "Are you sure you want to quit? (y/n)"
+      puts "Any unsaved data will be lost."
+      # could also say the time last saved here or something nice
+      if gets.chomp == 'y'
+        Game.discontinue
+      end
     end
   end
 
@@ -63,23 +76,6 @@ class Game
     @board.render
     puts " "
     puts String(@board.flag_count).colorize(:red) + " flags remaining"
-  end
-
-  def make_move(move)
-    action = move[0]
-    move[1..-1].each do |pos|
-      i,j = pos
-      if action == 'f'
-        @board.flag(i,j)
-      elsif action == 'u'
-        @board.unflag(i,j)
-      elsif action == 'r'
-        if @board[i,j].bomb && !@board[i,j].flagged
-          @game_over = true
-        end
-        @board.reveal(i,j)
-      end
-    end
   end
 
   def check_game_state
@@ -114,11 +110,15 @@ class Game
 
   def run
     while !@game_over
-      while !@game_over
+      while @@continuing && !@game_over
         prompt
         act_on_input
       end
-    show_game_over_screen
+      if @@continuing
+        show_game_over_screen
+      else
+        return
+      end
     end
   end
 
@@ -208,6 +208,25 @@ class Game
     return g
   end
 
+  def self.view_saves
+    #format - time last played, time spent playing, difficulty/custom grid setting, percentage complete?
+    system('clear')
+    puts "Select a saved game:"
+    save_file = File.open("saves.txt")
+    save_data = save_file.read.split("BREAK_PLACEHOLDER")
+    # save_data.each.with_index do |save,i|
+    #   save_data[i] = process_saved_game(save)
+    #   puts String(i) + " - game saved " + save[0]
+    # end
+    puts "last played " + save_data[0]
+    puts "enter 0 to start"
+    indices = ('0'...String(save_data.length)).to_a
+    while !indices.include?(gets.chomp)
+    end
+    load_game = YAML::load(save_data[1])
+    load_game.run
+  end
+
 end
 
 while Game.continuing
@@ -220,5 +239,7 @@ while Game.continuing
     Game.help_screen
   elsif mode == 'q'
     Game.discontinue
+  elsif mode == 'l'
+    Game.view_saves
   end
 end
